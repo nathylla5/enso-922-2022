@@ -6,6 +6,8 @@ public class App extends Jooby {
   {
     mvc(new Controller());
     mvc(new Soma());
+    mvc(new Subtracao());
+    mvc(new Multiplicacao());
   }
 
   public static void main(final String[] args) {
