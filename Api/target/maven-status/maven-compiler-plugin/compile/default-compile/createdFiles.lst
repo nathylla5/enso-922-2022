@@ -1,0 +1,4 @@
+app/Controller$Module.class
+app/Subtracao$Module.class
+app/Soma$Module.class
+META-INF/services/io.jooby.MvcFactory
