@@ -1,4 +1,0 @@
-META-INF/services/io.jooby.MvcFactory
-app/Controller.class
-app/Controller$Module.class
-app/Soma$Module.class
