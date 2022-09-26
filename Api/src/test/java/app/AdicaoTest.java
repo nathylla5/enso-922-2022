@@ -16,9 +16,16 @@ public class AdicaoTest {
         soma = new Soma();
     }
 
+    
     @Test
-    public void TESTE1(){
+    public void testeInteiro(){
         double resultado = soma.calculaSoma(5, 5);
+        assertEquals(10, resultado);
+    }
+
+    @Test
+    public void testeDecimal(){
+        double resultado = soma.calculaSoma(5.5, 4.5);
         assertEquals(10, resultado);
     }
 }
