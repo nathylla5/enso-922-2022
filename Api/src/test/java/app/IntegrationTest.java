@@ -15,8 +15,9 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class IntegrationTest {
 
   static OkHttpClient client = new OkHttpClient();
-
+  
   /*@Test
+
   public void shouldSayHi(int serverPort) throws IOException {
     Request req = new Request.Builder()
         .url("http://localhost:" + serverPort)
