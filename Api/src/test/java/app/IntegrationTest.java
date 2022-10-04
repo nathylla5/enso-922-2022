@@ -1,4 +1,4 @@
-/*package app;
+package app;
 
 import io.jooby.JoobyTest;
 import io.jooby.StatusCode;
@@ -27,6 +27,5 @@ public class IntegrationTest {
       assertEquals("Welcome to Jooby!", rsp.body().string());
       assertEquals(StatusCode.OK.value(), rsp.code());
     }
-
-  }
-}*
+  }*/
+}
